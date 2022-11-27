@@ -18,6 +18,6 @@
 //string res = kata.Interpret(s);
 //Console.WriteLine(res);
 
-Console.WriteLine(Math.Round(4.5));
+Console.WriteLine(RomanNumerals.ToRoman(1666));  // MDCLXVI //1666
 
 Console.ReadKey();
