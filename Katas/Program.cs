@@ -18,6 +18,9 @@
 //string res = kata.Interpret(s);
 //Console.WriteLine(res);
 
-Console.WriteLine(RomanNumerals.ToRoman(1666));  // MDCLXVI //1666
+//Console.WriteLine(RomanNumerals.ToRoman(1666));  // MDCLXVI //1666
+
+string stripped = Kata_4_StripCommentsSolution.StripComments("apples, pears # and bananas\ngrapes\nbananas !apples", new[] { "#", "!" });
+Console.Write(stripped);
 
 Console.ReadKey();
